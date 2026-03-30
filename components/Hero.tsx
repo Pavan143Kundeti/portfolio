@@ -88,7 +88,7 @@ export default function Hero() {
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="/Pavan_Kondeti_DevOps_Engineer.pdf"
+                href={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/Pavan_Kondeti_DevOps_Engineer.pdf`}
                 download
                 className="group px-6 py-3 bg-gradient-to-r from-indigo-600 to-blue-600 text-white rounded-lg font-medium hover:from-indigo-700 hover:to-blue-700 transition-all flex items-center gap-2 shadow-lg hover:shadow-xl"
               >
@@ -113,7 +113,7 @@ export default function Hero() {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 overflow-hidden rounded-lg shadow-lg">
               <img 
-                src="/profile.jpg" 
+                src={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/profile.jpg`}
                 alt="Pavan Kumar Kondeti" 
                 className="w-full h-full object-cover"
                 style={{ objectPosition: 'center 15%' }}

@@ -19,7 +19,11 @@ const projects = [
     liveUrl: 'https://campus-maintenance-web.onrender.com',
     githubUrl: 'https://github.com/Pavan143Kundeti/campus-maintenance-web',
     featured: true,
-    images: ['/campus-project.png', '/campus-project-2.png', '/campus-project-3.png'],
+    images: [
+      `${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/campus-project.png`,
+      `${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/campus-project-2.png`,
+      `${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/campus-project-3.png`
+    ],
   },
   {
     title: 'Terraform Infrastructure as Code',
