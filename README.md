@@ -4,7 +4,7 @@ A modern, professional portfolio website showcasing my skills as a Full Stack De
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://your-portfolio-url.vercel.app)
+[View Live Portfolio](https://pavan143kundeti.github.io/portfolio/)
 
 ## ✨ Features
 
