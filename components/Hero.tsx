@@ -62,7 +62,7 @@ export default function Hero() {
               transition={{ delay: 0.4 }}
               className="text-xl md:text-2xl text-gray-600 mb-6"
             >
-              Full Stack Developer | DevOps Engineer | AI/ML Enthusiast
+              DevOps Engineer | Cloud Infrastructure Specialist | Full Stack Developer
             </motion.p>
 
             <motion.p
@@ -71,7 +71,7 @@ export default function Hero() {
               transition={{ delay: 0.5 }}
               className="text-lg text-gray-600 mb-8 max-w-2xl"
             >
-              Building scalable web applications and automating cloud infrastructure with modern DevOps practices.
+              Automating cloud infrastructure and building CI/CD pipelines with AWS, Kubernetes, and Terraform.
             </motion.p>
 
             <motion.div

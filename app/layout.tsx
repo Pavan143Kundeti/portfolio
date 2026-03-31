@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pavan Kumar Kondeti | Full Stack Developer & DevOps Engineer",
-  description: "Full Stack Developer and DevOps Engineer specializing in React, Node.js, NestJS, Python, AWS, Docker, Kubernetes, CI/CD, and cloud automation. Building scalable applications with AI/ML knowledge.",
-  keywords: ["Full Stack Developer", "DevOps Engineer", "React", "Node.js", "NestJS", "Python", "AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "AI/ML", "Data Science"],
+  title: "Pavan Kumar Kondeti | DevOps Engineer & Cloud Specialist",
+  description: "DevOps Engineer specializing in AWS, Kubernetes, Docker, CI/CD pipelines, Terraform, and Infrastructure as Code. Building scalable cloud infrastructure and automating deployments.",
+  keywords: ["DevOps Engineer", "AWS", "Kubernetes", "Docker", "CI/CD", "Terraform", "Ansible", "Jenkins", "Cloud Infrastructure", "Infrastructure as Code"],
 };
 
 export default function RootLayout({

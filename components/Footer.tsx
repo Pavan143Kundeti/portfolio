@@ -40,7 +40,7 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-gray-400 text-center mb-2"
           >
-            Transforming ideas into scalable solutions through code and cloud automation
+            Automating cloud infrastructure and streamlining deployments with DevOps excellence
           </motion.p>
 
           <motion.p

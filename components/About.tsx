@@ -6,10 +6,10 @@ import { useRef } from 'react';
 import { Server, Code, Cloud, Zap } from 'lucide-react';
 
 const highlights = [
-  { icon: Server, text: 'Built full-stack applications with React, Node.js, NestJS, and PostgreSQL', color: 'blue' },
-  { icon: Cloud, text: 'Hands-on with Docker, Kubernetes, Jenkins, Terraform, and AWS services', color: 'indigo' },
-  { icon: Zap, text: 'CI/CD pipelines, Infrastructure as Code, and cloud automation expertise', color: 'teal' },
-  { icon: Code, text: 'AI/ML knowledge with Python, NumPy, Pandas, and data visualization tools', color: 'purple' },
+  { icon: Server, text: 'Built and managed CI/CD pipelines using Jenkins, GitHub Actions, and GitLab CI', color: 'blue' },
+  { icon: Cloud, text: 'Hands-on experience with AWS (EC2, S3, EKS, VPC, IAM, Lambda, CloudWatch)', color: 'indigo' },
+  { icon: Zap, text: 'Infrastructure as Code with Terraform and configuration management using Ansible', color: 'teal' },
+  { icon: Code, text: 'Container orchestration with Docker and Kubernetes on AWS EKS and Fargate', color: 'purple' },
 ];
 
 export default function About() {
@@ -36,10 +36,10 @@ export default function About() {
           className="max-w-3xl mx-auto mb-12"
         >
           <p className="text-lg text-gray-700 leading-relaxed text-center">
-            Full Stack Developer and DevOps Engineer with expertise in building scalable web applications and automating cloud infrastructure. 
-            Proficient in React, Node.js, NestJS, Python, and modern DevOps tools including Docker, Kubernetes, Jenkins, and Terraform. 
-            Strong foundation in AI/ML, Data Science, and cloud technologies (AWS). Passionate about creating efficient, production-ready systems 
-            and implementing CI/CD best practices.
+            DevOps Engineer specializing in cloud infrastructure automation, CI/CD pipelines, and container orchestration. 
+            Experienced in AWS services, Kubernetes, Docker, Terraform, and Jenkins. Strong background in Infrastructure as Code, 
+            configuration management with Ansible, and building scalable, production-ready systems. Passionate about automating 
+            workflows and implementing DevOps best practices for efficient software delivery.
           </p>
         </motion.div>
 

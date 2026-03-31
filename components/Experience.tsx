@@ -8,15 +8,15 @@ import { Briefcase, Calendar } from 'lucide-react';
 const experiences = [
   {
     company: 'Technovexa',
-    role: 'Full Stack Development Intern',
+    role: 'DevOps Engineer Intern',
     duration: 'Feb 2026 – Present',
     points: [
-      'Developed full-stack web applications using React, Node.js, NestJS, HTML5, CSS3, and JavaScript',
-      'Built CI/CD pipelines using Jenkins and GitHub Actions for automated deployments',
-      'Managed Docker containers and provisioned AWS infrastructure (EC2, S3, IAM, VPC)',
-      'Automated configuration management using Ansible and Terraform',
-      'Developed REST APIs and integrated with MySQL and PostgreSQL databases',
-      'Collaborated with teams using Git, Agile methodologies, and DevOps best practices',
+      'Designed and implemented CI/CD pipelines using Jenkins and GitHub Actions for automated deployments',
+      'Managed containerized applications with Docker and orchestrated using Kubernetes on AWS EKS',
+      'Provisioned and managed AWS infrastructure (EC2, S3, VPC, IAM, RDS) using Terraform',
+      'Automated server configuration and application deployment using Ansible playbooks',
+      'Implemented monitoring and logging solutions with CloudWatch and system performance optimization',
+      'Collaborated with development teams to implement DevOps best practices and improve deployment efficiency',
     ],
   },
 ];
