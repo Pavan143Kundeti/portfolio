@@ -6,39 +6,39 @@ import { useRef } from 'react';
 
 const skillCategories = [
   {
-    title: 'Frontend',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Redux', 'Bootstrap', 'Material-UI'],
-    color: 'from-blue-400 to-cyan-500',
-  },
-  {
-    title: 'Backend',
-    skills: ['Node.js', 'NestJS', 'Express.js', 'REST APIs', 'Python', 'Java'],
-    color: 'from-green-400 to-emerald-500',
-  },
-  {
-    title: 'Databases',
-    skills: ['MySQL', 'PostgreSQL', 'MongoDB'],
-    color: 'from-purple-400 to-pink-500',
-  },
-  {
     title: 'Cloud & AWS',
     skills: ['EC2', 'S3', 'IAM', 'VPC', 'EKS', 'RDS', 'Lambda', 'CloudWatch'],
     color: 'from-orange-400 to-red-500',
   },
   {
-    title: 'DevOps',
+    title: 'DevOps Tools',
     skills: ['Docker', 'Kubernetes', 'Jenkins', 'GitHub Actions', 'Terraform', 'Ansible'],
     color: 'from-indigo-400 to-blue-500',
   },
   {
-    title: 'Data Science & AI/ML',
-    skills: ['Python', 'NumPy', 'Pandas', 'Power BI', 'Machine Learning', 'Data Analysis'],
+    title: 'Programming & Scripting',
+    skills: ['Python', 'Bash', 'Shell Scripting', 'JavaScript', 'Java'],
+    color: 'from-green-400 to-emerald-500',
+  },
+  {
+    title: 'Databases',
+    skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'RDS'],
+    color: 'from-purple-400 to-pink-500',
+  },
+  {
+    title: 'Operating Systems',
+    skills: ['Linux', 'Ubuntu', 'CentOS', 'Windows Server', 'Unix'],
     color: 'from-teal-400 to-green-500',
   },
   {
-    title: 'Tools & Others',
-    skills: ['Git', 'Linux', 'Bash', 'Postman', 'VS Code', 'Agile', 'Scrum'],
+    title: 'Monitoring & Tools',
+    skills: ['CloudWatch', 'Prometheus', 'Grafana', 'Git', 'Postman', 'VS Code'],
     color: 'from-yellow-400 to-orange-500',
+  },
+  {
+    title: 'Web Technologies',
+    skills: ['HTML5', 'CSS3', 'React', 'Node.js', 'REST APIs', 'Nginx'],
+    color: 'from-blue-400 to-cyan-500',
   },
 ];
 

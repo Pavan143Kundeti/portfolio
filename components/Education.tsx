@@ -140,15 +140,15 @@ export default function Education() {
                 </li>
                 <li className="flex items-start text-gray-700">
                   <span className="text-teal-600 mr-2 font-bold">✓</span>
-                  DevOps & Full Stack Development Training
+                  DevOps Tools & Cloud Infrastructure Training
                 </li>
                 <li className="flex items-start text-gray-700">
                   <span className="text-teal-600 mr-2 font-bold">✓</span>
-                  AI/ML & Data Science Fundamentals
+                  Kubernetes & Container Orchestration
                 </li>
                 <li className="flex items-start text-gray-700">
                   <span className="text-teal-600 mr-2 font-bold">✓</span>
-                  Solved 50+ Data Structures and Algorithms problems
+                  Infrastructure as Code with Terraform
                 </li>
               </ul>
             </div>
